@@ -13,7 +13,7 @@ def hello_world():
 
 @app.route('/hack')
 def hacked():
-    return "You are hacked! N I'm Meghana Sadhu and Sai Sathya Priya Yanaam"
+    return "You are hacked! N I'm Meghana Sadhu and Sai Sathya Priya Yannam"
 
 @app.route('/download/<filename>')
 def download_file(filename):
